@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="machersstudio.aust.com.jago.prayerActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".12"
+        android:background="#3905fd01"
+
+        >
+        <ImageButton
+            android:id="@+id/home2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@drawable/home"
+            />
+        <Space
+
+
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:layout_height="match_parent"
+
+            />
+        <ImageButton
+            android:id="@+id/stop2"
+            android:layout_margin="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@drawable/stop"
+            />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/background"
+        >
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical"
+
+             >
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="1"
+                 android:padding="10dp"
+                 >
+
+                 <Button
+                     android:id="@+id/activate"
+                     android:layout_width="0dp"
+                     android:layout_weight="1"
+                     android:layout_height="match_parent"
+                     android:text="ACTIVATE"
+                     />
+                 <Button
+                     android:id="@+id/deactivate"
+                     android:layout_width="0dp"
+                     android:layout_weight="1"
+                     android:layout_height="match_parent"
+                     android:text="DEACTIVATE"
+                     />
+
+
+             </LinearLayout>
+
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="0dp"
+                 android:layout_weight="7"
+                 android:orientation="vertical"
+                 android:padding="10dp"
+                 >
+                 <TextView
+                     android:id="@+id/activation"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_margin="5dp"
+                     android:background="#3244f703"
+                     android:textSize="20sp"
+                     android:text="activation"
+
+                     />
+
+                 <TextView
+                     android:id="@+id/fajr"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_margin="5dp"
+                     android:textColor="#faf201"
+                     android:textSize="40sp"
+                     android:text="Fajr::"
+
+                     />
+                 <TextView
+                     android:id="@+id/zuhr"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_margin="5dp"
+                     android:textColor="#fac401"
+                     android:textSize="40sp"
+                     android:text="Zuhr::"
+
+                     />
+                 <TextView
+                     android:id="@+id/asr"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_margin="5dp"
+                     android:textColor="#fa9b01"
+                     android:textSize="40sp"
+                     android:text="Asr::"
+
+                     />
+                 <TextView
+                     android:id="@+id/maghrib"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_margin="5dp"
+                     android:textColor="#fa3701"
+                     android:textSize="40sp"
+                     android:text="Maghrib::"
+
+                     />
+                 <TextView
+                     android:id="@+id/isha"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_margin="5dp"
+                     android:textColor="#302f1a"
+                     android:textSize="40sp"
+                     android:text="Isha::"
+
+                     />
+
+
+
+
+             </LinearLayout>
+
+
+
+
+         </LinearLayout>
+
+        <ImageView
+            android:id="@+id/slide1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/slider"
+            />
+    </RelativeLayout>
+
+
+</LinearLayout>

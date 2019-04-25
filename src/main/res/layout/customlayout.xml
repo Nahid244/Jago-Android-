@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#5c08fc04"
+    >
+
+      <ImageButton
+          android:id="@+id/customimageview"
+          android:layout_width="0dp"
+          android:layout_weight="1"
+          android:layout_height="50dp"
+          android:background="@drawable/alarm"
+          />
+    <Space
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="50dp"
+
+        />
+
+      <TextView
+        android:id="@+id/customtxt"
+        android:layout_width="0dp"
+        android:layout_weight="5"
+          android:textSize="40sp"
+        android:layout_height="wrap_content"
+
+        android:text="gfgfg"
+        />
+    <ImageButton
+            android:id="@+id/customsetbut"
+
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="50dp"
+
+
+        android:background="@drawable/delete"
+        />
+
+
+</LinearLayout>
