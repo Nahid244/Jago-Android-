@@ -3,9 +3,9 @@ Jago
 
 ## Built With
 
+* Java
+## Tools
 * Android studio
-
-
 ## Authors
 
 *Nahid Hasan
